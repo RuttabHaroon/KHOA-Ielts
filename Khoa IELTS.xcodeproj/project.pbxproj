@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543A054E2302C82E002A21B5 /* RandomButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A054D2302C82E002A21B5 /* RandomButtonCell.swift */; };
+		961B96DB2282E5E100E95004 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 961B96DA2282E5E000E95004 /* GoogleService-Info.plist */; };
+		964A6498226EE22600553873 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A6497226EE22600553873 /* FirstViewController.swift */; };
+		9665B63F22EB2571004E1C07 /* TestRecordingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9665B63E22EB2571004E1C07 /* TestRecordingScreenViewController.swift */; };
+		96CFE3892272CDFE0083B24A /* FirebaseInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFE3882272CDFE0083B24A /* FirebaseInitialization.swift */; };
+		96CFE38B2272D08C0083B24A /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFE38A2272D08C0083B24A /* Users.swift */; };
+		96CFE38D2272D0950083B24A /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFE38C2272D0950083B24A /* Questions.swift */; };
+		A530E71124A53B6AE81B8FDA /* Pods_Khoa_IELTS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC48CDC62DE5505F63E02DE /* Pods_Khoa_IELTS.framework */; };
+		E3013CBB22EF0322004A0C18 /* TR01 - Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3013CBA22EF0322004A0C18 /* TR01 - Intro.wav */; };
+		E3013CBE22EF062E004A0C18 /* TR02 - Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3013CBC22EF062E004A0C18 /* TR02 - Intro.wav */; };
+		E3013CBF22EF062E004A0C18 /* TR03 - Before Part 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3013CBD22EF062E004A0C18 /* TR03 - Before Part 1.wav */; };
+		E31BF70C21E9BDDC00E2FC2C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BF70B21E9BDDC00E2FC2C /* NetworkManager.swift */; };
+		E3211DA321EC4D0D0039EE8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3211DA221EC4D0D0039EE8E /* Constants.swift */; };
+		E3211DA521EC6FFC0039EE8E /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3211DA421EC6FFC0039EE8E /* PracticeViewController.swift */; };
+		E32209D121E73DC400745A88 /* RecordingScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32209D021E73DC400745A88 /* RecordingScreenTableViewCell.swift */; };
+		E3373E6F21DDF27D003C0E04 /* RecordingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3373E6E21DDF27D003C0E04 /* RecordingScreenViewController.swift */; };
+		E3373E7121DDFA33003C0E04 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3373E7021DDFA33003C0E04 /* PopupViewController.swift */; };
+		E3373E7421DE02A2003C0E04 /* RoundedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3373E7321DE02A2003C0E04 /* RoundedButtons.swift */; };
+		E3373E7721DE0E31003C0E04 /* EndTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3373E7621DE0E31003C0E04 /* EndTestViewController.swift */; };
+		E33C613321E33BFF0055A6C5 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33C613221E33BFF0055A6C5 /* MainTabBarViewController.swift */; };
+		E33C613621E343550055A6C5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33C613521E343540055A6C5 /* SettingsViewController.swift */; };
+		E35BB5BC22F17AC400877F25 /* TR04 - Before Part 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E35BB5BA22F17AC400877F25 /* TR04 - Before Part 2.wav */; };
+		E35BB5BD22F17AC400877F25 /* TR05 - Before Part 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E35BB5BB22F17AC400877F25 /* TR05 - Before Part 3.wav */; };
+		E3641A5C21E9DA76008D1416 /* EndTestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3641A5B21E9DA76008D1416 /* EndTestTableViewCell.swift */; };
+		E378ED5921DCD52200C91F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378ED5821DCD52200C91F22 /* AppDelegate.swift */; };
+		E378ED5E21DCD52200C91F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E378ED5C21DCD52200C91F22 /* Main.storyboard */; };
+		E378ED6121DCD52200C91F22 /* Khoa_IELTS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E378ED5F21DCD52200C91F22 /* Khoa_IELTS.xcdatamodeld */; };
+		E378ED6321DCD52400C91F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E378ED6221DCD52400C91F22 /* Assets.xcassets */; };
+		E378ED6621DCD52400C91F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E378ED6421DCD52400C91F22 /* LaunchScreen.storyboard */; };
+		E378ED7321DCD58000C91F22 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378ED7221DCD58000C91F22 /* HomeScreenViewController.swift */; };
+		E378ED7621DCD82B00C91F22 /* HomeScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378ED7521DCD82B00C91F22 /* HomeScreenTableViewCell.swift */; };
+		E378ED7921DCE66F00C91F22 /* DetailHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378ED7821DCE66F00C91F22 /* DetailHomeScreenViewController.swift */; };
+		E378ED7C21DCE69200C91F22 /* DetailHomeScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378ED7B21DCE69200C91F22 /* DetailHomeScreenTableViewCell.swift */; };
+		E378ED7E21DCFEA200C91F22 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378ED7D21DCFEA200C91F22 /* Sections.swift */; };
+		E378ED8121DCFEE600C91F22 /* ExpendableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378ED8021DCFEE600C91F22 /* ExpendableHeaderFooterView.swift */; };
+		E39CAC31232FB6F100745659 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39CAC30232FB6F100745659 /* SettingCell.swift */; };
+		E3A5A7D121EDB4480028C3B9 /* AudioKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A7D021EDB4480028C3B9 /* AudioKitViewController.swift */; };
+		E3A92F6921E4DAAF002821D1 /* SubRecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A92F6821E4DAAF002821D1 /* SubRecordingsViewController.swift */; };
+		E3A92F6B21E4DABF002821D1 /* SubRecordingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A92F6A21E4DABF002821D1 /* SubRecordingsTableViewCell.swift */; };
+		E3D82C4E21DE245200368705 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D82C4D21DE245200368705 /* RoundedView.swift */; };
+		E3F54C0221DE2899001EAC0F /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F54C0121DE2899001EAC0F /* AnalyticsViewController.swift */; };
+		E3F54C0421DE2AE5001EAC0F /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F54C0321DE2AE5001EAC0F /* ReportViewController.swift */; };
+		E3F54C0621DE2B0C001EAC0F /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F54C0521DE2B0C001EAC0F /* RecordingsViewController.swift */; };
+		E3F54C0921DE2B7B001EAC0F /* RecordingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F54C0821DE2B7B001EAC0F /* RecordingsTableViewCell.swift */; };
+		FA30097A235EC377009A0103 /* Aileron-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA30096C235EC376009A0103 /* Aileron-Heavy.otf */; };
+		FA30097B235EC377009A0103 /* Aileron-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA30096D235EC376009A0103 /* Aileron-Thin.otf */; };
+		FA30097C235EC377009A0103 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA30096E235EC376009A0103 /* Aileron-Regular.otf */; };
+		FA30097D235EC377009A0103 /* Aileron-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA30096F235EC377009A0103 /* Aileron-SemiBoldItalic.otf */; };
+		FA30097E235EC377009A0103 /* Aileron-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300970235EC377009A0103 /* Aileron-BoldItalic.otf */; };
+		FA30097F235EC377009A0103 /* Aileron-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300971235EC377009A0103 /* Aileron-Italic.otf */; };
+		FA300980235EC377009A0103 /* Aileron-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300972235EC377009A0103 /* Aileron-ThinItalic.otf */; };
+		FA300981235EC377009A0103 /* Aileron-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300973235EC377009A0103 /* Aileron-UltraLight.otf */; };
+		FA300982235EC377009A0103 /* Aileron-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300974235EC377009A0103 /* Aileron-BlackItalic.otf */; };
+		FA300983235EC377009A0103 /* Aileron-UltraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300975235EC377009A0103 /* Aileron-UltraLightItalic.otf */; };
+		FA300984235EC377009A0103 /* Aileron-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300976235EC377009A0103 /* Aileron-Black.otf */; };
+		FA300985235EC377009A0103 /* Aileron-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300977235EC377009A0103 /* Aileron-HeavyItalic.otf */; };
+		FA300986235EC377009A0103 /* Aileron-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300978235EC377009A0103 /* Aileron-SemiBold.otf */; };
+		FA300987235EC377009A0103 /* Aileron-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300979235EC377009A0103 /* Aileron-Bold.otf */; };
+		FA30098A235EC380009A0103 /* Aileron-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300988235EC380009A0103 /* Aileron-Light.otf */; };
+		FA30098B235EC380009A0103 /* Aileron-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA300989235EC380009A0103 /* Aileron-LightItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024F3FF92AE509C7DF746C1A /* Pods-Khoa IELTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khoa IELTS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Khoa IELTS/Pods-Khoa IELTS.release.xcconfig"; sourceTree = "<group>"; };
+		543A054D2302C82E002A21B5 /* RandomButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomButtonCell.swift; sourceTree = "<group>"; };
+		7FC48CDC62DE5505F63E02DE /* Pods_Khoa_IELTS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Khoa_IELTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0C3E163298E966828F4074 /* Pods-Khoa IELTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khoa IELTS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Khoa IELTS/Pods-Khoa IELTS.debug.xcconfig"; sourceTree = "<group>"; };
+		961B96DA2282E5E000E95004 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		964A6497226EE22600553873 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9665B63E22EB2571004E1C07 /* TestRecordingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRecordingScreenViewController.swift; sourceTree = "<group>"; };
+		96CFE3882272CDFE0083B24A /* FirebaseInitialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseInitialization.swift; sourceTree = "<group>"; };
+		96CFE38A2272D08C0083B24A /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		96CFE38C2272D0950083B24A /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		E3013CBA22EF0322004A0C18 /* TR01 - Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR01 - Intro.wav"; sourceTree = "<group>"; };
+		E3013CBC22EF062E004A0C18 /* TR02 - Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR02 - Intro.wav"; sourceTree = "<group>"; };
+		E3013CBD22EF062E004A0C18 /* TR03 - Before Part 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR03 - Before Part 1.wav"; sourceTree = "<group>"; };
+		E31BF70B21E9BDDC00E2FC2C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E3211DA221EC4D0D0039EE8E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E3211DA421EC6FFC0039EE8E /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		E32209D021E73DC400745A88 /* RecordingScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingScreenTableViewCell.swift; sourceTree = "<group>"; };
+		E3373E6E21DDF27D003C0E04 /* RecordingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingScreenViewController.swift; sourceTree = "<group>"; };
+		E3373E7021DDFA33003C0E04 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		E3373E7321DE02A2003C0E04 /* RoundedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtons.swift; sourceTree = "<group>"; };
+		E3373E7621DE0E31003C0E04 /* EndTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndTestViewController.swift; sourceTree = "<group>"; };
+		E33C613221E33BFF0055A6C5 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		E33C613521E343540055A6C5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E35BB5BA22F17AC400877F25 /* TR04 - Before Part 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR04 - Before Part 2.wav"; sourceTree = "<group>"; };
+		E35BB5BB22F17AC400877F25 /* TR05 - Before Part 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR05 - Before Part 3.wav"; sourceTree = "<group>"; };
+		E3641A5B21E9DA76008D1416 /* EndTestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndTestTableViewCell.swift; sourceTree = "<group>"; };
+		E378ED5521DCD52200C91F22 /* Khoa IELTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khoa IELTS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E378ED5821DCD52200C91F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E378ED5D21DCD52200C91F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E378ED6021DCD52200C91F22 /* Khoa_IELTS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Khoa_IELTS.xcdatamodel; sourceTree = "<group>"; };
+		E378ED6221DCD52400C91F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E378ED6521DCD52400C91F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E378ED6721DCD52400C91F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E378ED7221DCD58000C91F22 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		E378ED7521DCD82B00C91F22 /* HomeScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenTableViewCell.swift; sourceTree = "<group>"; };
+		E378ED7821DCE66F00C91F22 /* DetailHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHomeScreenViewController.swift; sourceTree = "<group>"; };
+		E378ED7B21DCE69200C91F22 /* DetailHomeScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHomeScreenTableViewCell.swift; sourceTree = "<group>"; };
+		E378ED7D21DCFEA200C91F22 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		E378ED8021DCFEE600C91F22 /* ExpendableHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpendableHeaderFooterView.swift; sourceTree = "<group>"; };
+		E39CAC30232FB6F100745659 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		E3A5A7D021EDB4480028C3B9 /* AudioKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioKitViewController.swift; sourceTree = "<group>"; };
+		E3A92F6821E4DAAF002821D1 /* SubRecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRecordingsViewController.swift; sourceTree = "<group>"; };
+		E3A92F6A21E4DABF002821D1 /* SubRecordingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRecordingsTableViewCell.swift; sourceTree = "<group>"; };
+		E3D82C4D21DE245200368705 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		E3F54C0121DE2899001EAC0F /* AnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
+		E3F54C0321DE2AE5001EAC0F /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		E3F54C0521DE2B0C001EAC0F /* RecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
+		E3F54C0821DE2B7B001EAC0F /* RecordingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsTableViewCell.swift; sourceTree = "<group>"; };
+		FA30096C235EC376009A0103 /* Aileron-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Heavy.otf"; sourceTree = "<group>"; };
+		FA30096D235EC376009A0103 /* Aileron-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Thin.otf"; sourceTree = "<group>"; };
+		FA30096E235EC376009A0103 /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
+		FA30096F235EC377009A0103 /* Aileron-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		FA300970235EC377009A0103 /* Aileron-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-BoldItalic.otf"; sourceTree = "<group>"; };
+		FA300971235EC377009A0103 /* Aileron-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Italic.otf"; sourceTree = "<group>"; };
+		FA300972235EC377009A0103 /* Aileron-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-ThinItalic.otf"; sourceTree = "<group>"; };
+		FA300973235EC377009A0103 /* Aileron-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-UltraLight.otf"; sourceTree = "<group>"; };
+		FA300974235EC377009A0103 /* Aileron-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-BlackItalic.otf"; sourceTree = "<group>"; };
+		FA300975235EC377009A0103 /* Aileron-UltraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-UltraLightItalic.otf"; sourceTree = "<group>"; };
+		FA300976235EC377009A0103 /* Aileron-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Black.otf"; sourceTree = "<group>"; };
+		FA300977235EC377009A0103 /* Aileron-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-HeavyItalic.otf"; sourceTree = "<group>"; };
+		FA300978235EC377009A0103 /* Aileron-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-SemiBold.otf"; sourceTree = "<group>"; };
+		FA300979235EC377009A0103 /* Aileron-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Bold.otf"; sourceTree = "<group>"; };
+		FA300988235EC380009A0103 /* Aileron-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Light.otf"; sourceTree = "<group>"; };
+		FA300989235EC380009A0103 /* Aileron-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-LightItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E378ED5221DCD52200C91F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530E71124A53B6AE81B8FDA /* Pods_Khoa_IELTS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32284048E8FF2D33F8D49CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F0C3E163298E966828F4074 /* Pods-Khoa IELTS.debug.xcconfig */,
+				024F3FF92AE509C7DF746C1A /* Pods-Khoa IELTS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53BB9E4E2F4E9D0B04181B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FC48CDC62DE5505F63E02DE /* Pods_Khoa_IELTS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		964A6496226EE21300553873 /* First View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				964A6497226EE22600553873 /* FirstViewController.swift */,
+			);
+			path = "First View Controller";
+			sourceTree = "<group>";
+		};
+		96CFE3872272CDD60083B24A /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				96CFE3882272CDFE0083B24A /* FirebaseInitialization.swift */,
+				96CFE38A2272D08C0083B24A /* Users.swift */,
+				96CFE38C2272D0950083B24A /* Questions.swift */,
+				E378ED7D21DCFEA200C91F22 /* Sections.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		E3013CB922EF0313004A0C18 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E3013CBA22EF0322004A0C18 /* TR01 - Intro.wav */,
+				E3013CBC22EF062E004A0C18 /* TR02 - Intro.wav */,
+				E3013CBD22EF062E004A0C18 /* TR03 - Before Part 1.wav */,
+				E35BB5BA22F17AC400877F25 /* TR04 - Before Part 2.wav */,
+				E35BB5BB22F17AC400877F25 /* TR05 - Before Part 3.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		E32209CF21E73DAA00745A88 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E32209D021E73DC400745A88 /* RecordingScreenTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E3373E6D21DDF260003C0E04 /* Recording Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E32209CF21E73DAA00745A88 /* TableViewCell */,
+				E3373E6E21DDF27D003C0E04 /* RecordingScreenViewController.swift */,
+				9665B63E22EB2571004E1C07 /* TestRecordingScreenViewController.swift */,
+			);
+			path = "Recording Screen";
+			sourceTree = "<group>";
+		};
+		E3373E7221DDFA3C003C0E04 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				E3373E7021DDFA33003C0E04 /* PopupViewController.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		E3373E7521DE0E21003C0E04 /* End Test */ = {
+			isa = PBXGroup;
+			children = (
+				E3641A5A21E9DA64008D1416 /* TableVieCell */,
+				E3373E7621DE0E31003C0E04 /* EndTestViewController.swift */,
+			);
+			path = "End Test";
+			sourceTree = "<group>";
+		};
+		E33C613421E343490055A6C5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E33C613521E343540055A6C5 /* SettingsViewController.swift */,
+				E39CAC30232FB6F100745659 /* SettingCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E3641A5A21E9DA64008D1416 /* TableVieCell */ = {
+			isa = PBXGroup;
+			children = (
+				E3641A5B21E9DA76008D1416 /* EndTestTableViewCell.swift */,
+			);
+			path = TableVieCell;
+			sourceTree = "<group>";
+		};
+		E378ED4C21DCD52200C91F22 = {
+			isa = PBXGroup;
+			children = (
+				E378ED5721DCD52200C91F22 /* Khoa IELTS */,
+				E378ED5621DCD52200C91F22 /* Products */,
+				32284048E8FF2D33F8D49CBC /* Pods */,
+				53BB9E4E2F4E9D0B04181B49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E378ED5621DCD52200C91F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED5521DCD52200C91F22 /* Khoa IELTS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E378ED5721DCD52200C91F22 /* Khoa IELTS */ = {
+			isa = PBXGroup;
+			children = (
+				FA30096B235EC364009A0103 /* Font */,
+				E3013CB922EF0313004A0C18 /* Audio */,
+				96CFE3872272CDD60083B24A /* Firebase */,
+				E378ED7021DCD54C00C91F22 /* Controller */,
+				E378ED6F21DCD54700C91F22 /* Model */,
+				E378ED6E21DCD53A00C91F22 /* Storyboard */,
+				E378ED6D21DCD52E00C91F22 /* Core */,
+				E378ED6721DCD52400C91F22 /* Info.plist */,
+				E378ED5F21DCD52200C91F22 /* Khoa_IELTS.xcdatamodeld */,
+				961B96DA2282E5E000E95004 /* GoogleService-Info.plist */,
+			);
+			path = "Khoa IELTS";
+			sourceTree = "<group>";
+		};
+		E378ED6D21DCD52E00C91F22 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED6221DCD52400C91F22 /* Assets.xcassets */,
+				E378ED5821DCD52200C91F22 /* AppDelegate.swift */,
+				E3373E7321DE02A2003C0E04 /* RoundedButtons.swift */,
+				E3D82C4D21DE245200368705 /* RoundedView.swift */,
+				E31BF70B21E9BDDC00E2FC2C /* NetworkManager.swift */,
+				E3211DA221EC4D0D0039EE8E /* Constants.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E378ED6E21DCD53A00C91F22 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED5C21DCD52200C91F22 /* Main.storyboard */,
+				E378ED6421DCD52400C91F22 /* LaunchScreen.storyboard */,
+				E3211DA421EC6FFC0039EE8E /* PracticeViewController.swift */,
+				E3A5A7D021EDB4480028C3B9 /* AudioKitViewController.swift */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E378ED6F21DCD54700C91F22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E378ED7021DCD54C00C91F22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				964A6496226EE21300553873 /* First View Controller */,
+				E33C613421E343490055A6C5 /* Settings */,
+				E3F54BFE21DE2872001EAC0F /* Analytics */,
+				E3373E7521DE0E21003C0E04 /* End Test */,
+				E3373E7221DDFA3C003C0E04 /* Popup */,
+				E3373E6D21DDF260003C0E04 /* Recording Screen */,
+				E378ED7721DCE65400C91F22 /* Detail Home Screen */,
+				E378ED7121DCD56E00C91F22 /* Home Screen */,
+				E33C613221E33BFF0055A6C5 /* MainTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E378ED7121DCD56E00C91F22 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED7421DCD7F300C91F22 /* TableViewCell */,
+				E378ED7221DCD58000C91F22 /* HomeScreenViewController.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		E378ED7421DCD7F300C91F22 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED7521DCD82B00C91F22 /* HomeScreenTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E378ED7721DCE65400C91F22 /* Detail Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED7F21DCFED100C91F22 /* Dropdown Cell */,
+				E378ED7A21DCE67A00C91F22 /* TableViewCell */,
+				E378ED7821DCE66F00C91F22 /* DetailHomeScreenViewController.swift */,
+			);
+			path = "Detail Home Screen";
+			sourceTree = "<group>";
+		};
+		E378ED7A21DCE67A00C91F22 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED7B21DCE69200C91F22 /* DetailHomeScreenTableViewCell.swift */,
+				543A054D2302C82E002A21B5 /* RandomButtonCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E378ED7F21DCFED100C91F22 /* Dropdown Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E378ED8021DCFEE600C91F22 /* ExpendableHeaderFooterView.swift */,
+			);
+			path = "Dropdown Cell";
+			sourceTree = "<group>";
+		};
+		E3A92F6621E4DA8F002821D1 /* Sub Recordings */ = {
+			isa = PBXGroup;
+			children = (
+				E3A92F6721E4DA9A002821D1 /* TableViewCell */,
+				E3A92F6821E4DAAF002821D1 /* SubRecordingsViewController.swift */,
+			);
+			path = "Sub Recordings";
+			sourceTree = "<group>";
+		};
+		E3A92F6721E4DA9A002821D1 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E3A92F6A21E4DABF002821D1 /* SubRecordingsTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E3F54BFE21DE2872001EAC0F /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E3F54C0021DE2887001EAC0F /* Recordings */,
+				E3F54BFF21DE2881001EAC0F /* Report */,
+				E3F54C0121DE2899001EAC0F /* AnalyticsViewController.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		E3F54BFF21DE2881001EAC0F /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				E3F54C0321DE2AE5001EAC0F /* ReportViewController.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		E3F54C0021DE2887001EAC0F /* Recordings */ = {
+			isa = PBXGroup;
+			children = (
+				E3A92F6621E4DA8F002821D1 /* Sub Recordings */,
+				E3F54C0721DE2B69001EAC0F /* TableViewCell */,
+				E3F54C0521DE2B0C001EAC0F /* RecordingsViewController.swift */,
+			);
+			path = Recordings;
+			sourceTree = "<group>";
+		};
+		E3F54C0721DE2B69001EAC0F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E3F54C0821DE2B7B001EAC0F /* RecordingsTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FA30096B235EC364009A0103 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FA300976235EC377009A0103 /* Aileron-Black.otf */,
+				FA300974235EC377009A0103 /* Aileron-BlackItalic.otf */,
+				FA300979235EC377009A0103 /* Aileron-Bold.otf */,
+				FA300970235EC377009A0103 /* Aileron-BoldItalic.otf */,
+				FA30096C235EC376009A0103 /* Aileron-Heavy.otf */,
+				FA300977235EC377009A0103 /* Aileron-HeavyItalic.otf */,
+				FA300971235EC377009A0103 /* Aileron-Italic.otf */,
+				FA30096E235EC376009A0103 /* Aileron-Regular.otf */,
+				FA300978235EC377009A0103 /* Aileron-SemiBold.otf */,
+				FA30096F235EC377009A0103 /* Aileron-SemiBoldItalic.otf */,
+				FA30096D235EC376009A0103 /* Aileron-Thin.otf */,
+				FA300972235EC377009A0103 /* Aileron-ThinItalic.otf */,
+				FA300973235EC377009A0103 /* Aileron-UltraLight.otf */,
+				FA300975235EC377009A0103 /* Aileron-UltraLightItalic.otf */,
+				FA300988235EC380009A0103 /* Aileron-Light.otf */,
+				FA300989235EC380009A0103 /* Aileron-LightItalic.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E378ED5421DCD52200C91F22 /* Khoa IELTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E378ED6A21DCD52400C91F22 /* Build configuration list for PBXNativeTarget "Khoa IELTS" */;
+			buildPhases = (
+				53AEEAF00FF549F662501A65 /* [CP] Check Pods Manifest.lock */,
+				E378ED5121DCD52200C91F22 /* Sources */,
+				E378ED5221DCD52200C91F22 /* Frameworks */,
+				E378ED5321DCD52200C91F22 /* Resources */,
+				CCADAFDA7F3ABEF791240C16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khoa IELTS";
+			productName = "Khoa IELTS";
+			productReference = E378ED5521DCD52200C91F22 /* Khoa IELTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E378ED4D21DCD52200C91F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ast;
+				TargetAttributes = {
+					E378ED5421DCD52200C91F22 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = E378ED5021DCD52200C91F22 /* Build configuration list for PBXProject "Khoa IELTS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E378ED4C21DCD52200C91F22;
+			productRefGroup = E378ED5621DCD52200C91F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E378ED5421DCD52200C91F22 /* Khoa IELTS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E378ED5321DCD52200C91F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA300984235EC377009A0103 /* Aileron-Black.otf in Resources */,
+				FA300983235EC377009A0103 /* Aileron-UltraLightItalic.otf in Resources */,
+				FA30097A235EC377009A0103 /* Aileron-Heavy.otf in Resources */,
+				FA300986235EC377009A0103 /* Aileron-SemiBold.otf in Resources */,
+				FA30097E235EC377009A0103 /* Aileron-BoldItalic.otf in Resources */,
+				E3013CBB22EF0322004A0C18 /* TR01 - Intro.wav in Resources */,
+				FA30097F235EC377009A0103 /* Aileron-Italic.otf in Resources */,
+				FA30097D235EC377009A0103 /* Aileron-SemiBoldItalic.otf in Resources */,
+				FA300985235EC377009A0103 /* Aileron-HeavyItalic.otf in Resources */,
+				E3013CBF22EF062E004A0C18 /* TR03 - Before Part 1.wav in Resources */,
+				FA300981235EC377009A0103 /* Aileron-UltraLight.otf in Resources */,
+				E378ED6621DCD52400C91F22 /* LaunchScreen.storyboard in Resources */,
+				FA300987235EC377009A0103 /* Aileron-Bold.otf in Resources */,
+				961B96DB2282E5E100E95004 /* GoogleService-Info.plist in Resources */,
+				E35BB5BD22F17AC400877F25 /* TR05 - Before Part 3.wav in Resources */,
+				FA30098A235EC380009A0103 /* Aileron-Light.otf in Resources */,
+				E378ED6321DCD52400C91F22 /* Assets.xcassets in Resources */,
+				FA30097C235EC377009A0103 /* Aileron-Regular.otf in Resources */,
+				FA300982235EC377009A0103 /* Aileron-BlackItalic.otf in Resources */,
+				FA30098B235EC380009A0103 /* Aileron-LightItalic.otf in Resources */,
+				E378ED5E21DCD52200C91F22 /* Main.storyboard in Resources */,
+				E3013CBE22EF062E004A0C18 /* TR02 - Intro.wav in Resources */,
+				FA300980235EC377009A0103 /* Aileron-ThinItalic.otf in Resources */,
+				FA30097B235EC377009A0103 /* Aileron-Thin.otf in Resources */,
+				E35BB5BC22F17AC400877F25 /* TR04 - Before Part 2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53AEEAF00FF549F662501A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Khoa IELTS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCADAFDA7F3ABEF791240C16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Khoa IELTS/Pods-Khoa IELTS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Khoa IELTS/Pods-Khoa IELTS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Khoa IELTS/Pods-Khoa IELTS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E378ED5121DCD52200C91F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39CAC31232FB6F100745659 /* SettingCell.swift in Sources */,
+				E3211DA321EC4D0D0039EE8E /* Constants.swift in Sources */,
+				E31BF70C21E9BDDC00E2FC2C /* NetworkManager.swift in Sources */,
+				E378ED7621DCD82B00C91F22 /* HomeScreenTableViewCell.swift in Sources */,
+				E378ED7E21DCFEA200C91F22 /* Sections.swift in Sources */,
+				E378ED7C21DCE69200C91F22 /* DetailHomeScreenTableViewCell.swift in Sources */,
+				E33C613321E33BFF0055A6C5 /* MainTabBarViewController.swift in Sources */,
+				E378ED5921DCD52200C91F22 /* AppDelegate.swift in Sources */,
+				E33C613621E343550055A6C5 /* SettingsViewController.swift in Sources */,
+				96CFE38D2272D0950083B24A /* Questions.swift in Sources */,
+				543A054E2302C82E002A21B5 /* RandomButtonCell.swift in Sources */,
+				E378ED8121DCFEE600C91F22 /* ExpendableHeaderFooterView.swift in Sources */,
+				E3373E7421DE02A2003C0E04 /* RoundedButtons.swift in Sources */,
+				E3373E7121DDFA33003C0E04 /* PopupViewController.swift in Sources */,
+				E3D82C4E21DE245200368705 /* RoundedView.swift in Sources */,
+				E3F54C0621DE2B0C001EAC0F /* RecordingsViewController.swift in Sources */,
+				96CFE3892272CDFE0083B24A /* FirebaseInitialization.swift in Sources */,
+				E3211DA521EC6FFC0039EE8E /* PracticeViewController.swift in Sources */,
+				E3A5A7D121EDB4480028C3B9 /* AudioKitViewController.swift in Sources */,
+				E32209D121E73DC400745A88 /* RecordingScreenTableViewCell.swift in Sources */,
+				E3F54C0421DE2AE5001EAC0F /* ReportViewController.swift in Sources */,
+				E3373E6F21DDF27D003C0E04 /* RecordingScreenViewController.swift in Sources */,
+				E3641A5C21E9DA76008D1416 /* EndTestTableViewCell.swift in Sources */,
+				E3F54C0221DE2899001EAC0F /* AnalyticsViewController.swift in Sources */,
+				E3373E7721DE0E31003C0E04 /* EndTestViewController.swift in Sources */,
+				96CFE38B2272D08C0083B24A /* Users.swift in Sources */,
+				E3A92F6B21E4DABF002821D1 /* SubRecordingsTableViewCell.swift in Sources */,
+				E3A92F6921E4DAAF002821D1 /* SubRecordingsViewController.swift in Sources */,
+				E378ED7921DCE66F00C91F22 /* DetailHomeScreenViewController.swift in Sources */,
+				E378ED6121DCD52200C91F22 /* Khoa_IELTS.xcdatamodeld in Sources */,
+				E378ED7321DCD58000C91F22 /* HomeScreenViewController.swift in Sources */,
+				E3F54C0921DE2B7B001EAC0F /* RecordingsTableViewCell.swift in Sources */,
+				9665B63F22EB2571004E1C07 /* TestRecordingScreenViewController.swift in Sources */,
+				964A6498226EE22600553873 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E378ED5C21DCD52200C91F22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E378ED5D21DCD52200C91F22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E378ED6421DCD52400C91F22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E378ED6521DCD52400C91F22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E378ED6821DCD52400C91F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E378ED6921DCD52400C91F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E378ED6B21DCD52400C91F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0C3E163298E966828F4074 /* Pods-Khoa IELTS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PY99FJ5BU;
+				INFOPLIST_FILE = "Khoa IELTS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.vaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E378ED6C21DCD52400C91F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024F3FF92AE509C7DF746C1A /* Pods-Khoa IELTS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PY99FJ5BU;
+				INFOPLIST_FILE = "Khoa IELTS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.vaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E378ED5021DCD52200C91F22 /* Build configuration list for PBXProject "Khoa IELTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E378ED6821DCD52400C91F22 /* Debug */,
+				E378ED6921DCD52400C91F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E378ED6A21DCD52400C91F22 /* Build configuration list for PBXNativeTarget "Khoa IELTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E378ED6B21DCD52400C91F22 /* Debug */,
+				E378ED6C21DCD52400C91F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E378ED5F21DCD52200C91F22 /* Khoa_IELTS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E378ED6021DCD52200C91F22 /* Khoa_IELTS.xcdatamodel */,
+			);
+			currentVersion = E378ED6021DCD52200C91F22 /* Khoa_IELTS.xcdatamodel */;
+			path = Khoa_IELTS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E378ED4D21DCD52200C91F22 /* Project object */;
+}

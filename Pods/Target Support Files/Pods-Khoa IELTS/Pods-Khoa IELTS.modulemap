@@ -1,0 +1,6 @@
+framework module Pods_Khoa_IELTS {
+  umbrella header "Pods-Khoa IELTS-umbrella.h"
+
+  export *
+  module * { export * }
+}
